@@ -1,0 +1,75 @@
+1.SHOP:
+
+public class properties{
+    public static void main(String[]args){
+        int[][]a={
+            {1,2},
+            {3,4},
+        };
+        int[][]b={
+            {5,6},
+            {7,8},
+        };
+        int[][]c=new int[2][2];
+        for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[i].length;j++){
+                c[i][j]=a[i][j]+b[i][j];
+            }
+        }
+        System.out.println("Addition");
+        for(int i=0;i<c.length;i++){
+            for(int j=0;j<c[i].length;j++){
+                System.out.println(c[i][j]+"");
+            }
+            System.out.println();
+        }
+    }
+}
+
+============================================================================================================================================================================================
+
+2.STUDENT:
+
+public class student {
+   public student() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 25;
+      String var2 = var1 >= 18 ? "Eligible" : "Not Eligible";
+      System.out.println("age");
+   }
+}
+
+============================================================================================================================================================================================
+
+3.SUM:
+
+public class sum{
+    public static void main(String[]args){
+        int a[][]={
+            {1,2,3},
+            {2,2,3},
+            {1,2,4}
+        };
+        for(int i=0;i<3;i++){
+            int sum=0;
+        for(int j=0;j<3;j++){
+            sum=sum+a[i][j];
+        }
+        System.out.println("sum of row"+(i+1)+"="+sum);
+        System.out.println("sum of column"+(i+1)+"="+sum);
+
+    }
+}
+}
+
+============================================================================================================================================================================================
+        
+    
+            
+        
+
+    
+    
+

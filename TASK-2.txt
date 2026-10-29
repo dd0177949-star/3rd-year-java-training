@@ -1,0 +1,64 @@
+1.CHECK:
+
+public class check
+{
+    public static void main(String[]args)
+    {
+        int a= 75;
+        String attendance=(a>=40)?"Pass":"Fail";
+        System.out.println(attendance);
+
+    }
+}
+
+============================================================================================================================================================================================
+
+2.EVEN:
+
+import java.util.Scanner;
+public class even
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int num= sc.nextInt();
+        System.out.println("Enter a number");
+        if(num>2 && num<10)
+        {
+            System.out.println("Even and Greater");
+        }
+        else
+        {
+            System.out.println("Odd or Less");
+        }
+
+
+    }
+}
+
+============================================================================================================================================================================================
+
+3.LOGIN ATTEMPT CONTROLLER:
+
+public class loginattemptcontroller
+public static void main(string[]args)
+{
+    scanner scanner=new scanner(system.in);
+    system.out.println("Enter your maximum attempts:");
+    int maxattempts=scanner.nextInt();
+    system.out.println("Enter your failed attempts:");
+    int failedattempts=scanner.nextInt();
+    string result=(failedattempts<maxattempts) ?"Login successful" : "Login failed";
+    {
+        system.out.println(result);
+        if(result.equals)("login failed")
+        {
+            failedattempts++;
+            system.out.println("Failed attempts:" + failedattempts);
+        }
+        
+        }
+    }
+}
+
+============================================================================================================================================================================================

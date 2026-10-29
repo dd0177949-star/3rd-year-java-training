@@ -1,0 +1,48 @@
+1.AGE:
+S
+public class age{
+    public static void main(String[] args) {
+        int d = 25;
+        String student = (d >= 18) ? "Eligible" : "Not Eligible";
+        System.out.println(student);
+    }
+}
+
+============================================================================================================================================================================================
+
+2.AMOUNT:
+
+import java.util.Scanner;
+public class amount{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a balance:");
+        double accbal=sc.nextDouble();
+        System.out.println("Enter a withdraw amount:");
+        double withamt=sc.nextDouble();
+        String result=(withamt % 100==0 && withamt<=accbal) ? "transaction valid":"no valid";
+        System.out.println(result);
+    }
+    
+}
+
+============================================================================================================================================================================================
+
+3.ARRAY:
+
+public class array {
+    public static void main(String[]args)
+    {
+        int[]arr={1,2,3,4,5};
+        System.out.println(arr[3]);
+        arr[3]=10;
+        System.out.println(arr[3]);
+    }
+}
+
+============================================================================================================================================================================================
+
+
+
+

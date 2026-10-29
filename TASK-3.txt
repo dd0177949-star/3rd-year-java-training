@@ -1,0 +1,82 @@
+1.PASSLEN:
+
+import java.util.Scanner;
+public class passlen
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a password:");
+        String pass=sc.nextLine();
+        boolean Active=true;
+        String result=(pass.length()>=8 && Active) ?"Valid":"Not Valid";
+        System.out.println(result);
+
+        
+
+
+    }
+}
+
+============================================================================================================================================================================================
+
+2.PATTERN:
+
+public class pattern {
+    public static void main(String args[]){
+        for(int i=0;i<5;i++){
+            for(int j=0;j<5;j++){
+                if(i==0||j==0||i==2||j==4){
+                    System.out.println("*");
+                }else{
+                    System.out.println("");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+============================================================================================================================================================================================
+
+3.PROPERTIES:
+
+public class properties{
+    public static void main(String[]args){
+        int[][]a={
+            {1,2},
+            {3,4},
+        };
+        int[][]b={
+            {5,6},
+            {7,8},
+        };
+        int[][]c=new int[2][2];
+        for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[i].length;j++){
+                c[i][j]=a[i][j]+b[i][j];
+            }
+        }
+        System.out.println("Addition");
+        for(int i=0;i<c.length;i++){
+            for(int j=0;j<c[i].length;j++){
+                System.out.println(c[i][j]+"");
+            }
+            System.out.println();
+        }
+    }
+}
+
+============================================================================================================================================================================================
+        
+    
+            
+        
+
+    
+    
+
+
+ 
+    
+
